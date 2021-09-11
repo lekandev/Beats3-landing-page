@@ -26,7 +26,7 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="#home" class="nav__link">Home</a>
+                            <a href="#home" class=" active-link nav__link">Home</a>
                         </li>
                         <li class="nav__item">
                             <a href="#specs" class="nav__link">Specs</a>
@@ -39,12 +39,12 @@
                         </li>
                     </ul>
 
-                    <div class="nav__close" id="nav__close">
+                    <div class="nav__close" id="nav-close">
                         <i class="ri-close-line"></i>
                     </div>
                 </div>
 
-                <div class="nav__toggle" id="nav__toggle">
+                <div class="nav__toggle" id="nav-toggle">
                     <i class="ri-function-line"></i>
                 </div>
             </nav>
@@ -281,9 +281,9 @@
 
                 <div class="footer__content">
                     <form action="" class="footer__form">
-                        <input type="email" class="footer__input">
+                        <input type="email" placeholder="Email" class="footer__input">
                         <button class="button button--flex">
-                            <i class="ri-send-plane-line button__icon"></i>Subscribe 54 : 21
+                            <i class="ri-send-plane-line button__icon"></i>Subscribe
                         </button>
                     </form>
 
@@ -293,19 +293,27 @@
                         </a>
 
                         <a href="#" class="footer__social-link">
-                            <i class="ri-facebook-fill"></i>
+                            <i class="ri-instagram-line"></i>
                         </a>
 
                         <a href="#" class="footer__social-link">
-                            <i class="ri-facebook-fill"></i>
+                            <i class="ri-twitter-line"></i>
                         </a>
                     </div>
                 </div>
             </div>
+
+            <p class="footer__copy">
+                <a href="https://lekan.vercel.app" class="footer__copy-link">
+                    &#169; Lekandev. All rights reserved
+                </a>
+            </p>
         </footer>
 
         <!--=============== SCROLL UP ===============-->
-        
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-s-line scrollup__icon"></i>
+        </a>
         
         <!--=============== SCROLL REVEAL ===============-->
         <script src="assets/js/scrollreveal.min.js"></script>
